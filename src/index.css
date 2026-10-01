@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-title {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+@page {
+  size: A4 landscape;
+  margin: 0;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .printable-cert, .printable-cert * {
+    visibility: visible;
+  }
+  .printable-cert {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    max-width: none !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    z-index: 99999;
+  }
+}

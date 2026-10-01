@@ -1,0 +1,6 @@
+{
+  "name": "Verbe — École d'art oratoire",
+  "description": "Plateforme d'art oratoire et webinaire interactif avec cours pratiques, exercices de voix et photos réelles de prises de parole en public.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
