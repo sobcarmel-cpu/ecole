@@ -1,3 +1,14 @@
+import hero_black_speaker_1790879377283 from '../assets/images/hero_black_speaker_1790879377283.jpg';
+import hero_public_speaker_1790876957416 from '../assets/images/hero_public_speaker_1790876957416.jpg';
+import speaker_audience_workshop_1790877006383 from '../assets/images/speaker_audience_workshop_1790877006383.jpg';
+import speaker_black_coach_workshop_1790879424808 from '../assets/images/speaker_black_coach_workshop_1790879424808.jpg';
+import speaker_black_keynote_hall_1790879414109 from '../assets/images/speaker_black_keynote_hall_1790879414109.jpg';
+import speaker_black_orator_mic_1790879402116 from '../assets/images/speaker_black_orator_mic_1790879402116.jpg';
+import speaker_black_woman_stage_1790879390986 from '../assets/images/speaker_black_woman_stage_1790879390986.jpg';
+import speaker_grand_orator_1790876995112 from '../assets/images/speaker_grand_orator_1790876995112.jpg';
+import speaker_keynote_gesture_1790876980916 from '../assets/images/speaker_keynote_gesture_1790876980916.jpg';
+import speaker_voice_stage_1790876969606 from '../assets/images/speaker_voice_stage_1790876969606.jpg';
+
 export interface Lesson {
   title: string;
   summary: string;
@@ -55,7 +66,7 @@ export interface Course {
   quiz: QuizQuestion[];
 }
 
-export const HERO_IMAGE = '/src/assets/images/hero_black_speaker_1790879377283.jpg';
+export const HERO_IMAGE = hero_black_speaker_1790879377283;
 
 export const COURSES: Course[] = [
   // ==========================================
@@ -72,7 +83,7 @@ export const COURSES: Course[] = [
     duration: '2h30',
     badgeColor: '#f2552f',
     accentBg: 'from-orange-600/90 to-neutral-900',
-    image: '/src/assets/images/speaker_voice_stage_1790876969606.jpg',
+    image: speaker_voice_stage_1790876969606,
     imageAlt: "Orateur travaillant son ancrage et sa voix sur scène à l'École Verbe",
     description: "Le trac n'est pas votre ennemi : c'est un flux d'adrénaline brute qui ne demande qu'à être canalisé. Dans ce module inaugural, vous apprendrez la physiologie de la peur, le trépied postural pour libérer vos poumons et la maîtrise des 3 silences souverains.",
     speakingLab: {
@@ -200,7 +211,7 @@ export const COURSES: Course[] = [
     duration: '3h00',
     badgeColor: '#2563eb',
     accentBg: 'from-blue-600/90 to-neutral-900',
-    image: '/src/assets/images/speaker_keynote_gesture_1790876980916.jpg',
+    image: speaker_keynote_gesture_1790876980916,
     imageAlt: "Orateur structurant sa pensée avec clarté lors d'une présentation percutante",
     description: "Une idée confuse est inaudible. Les orateurs d'élite ne parlent pas au hasard : ils construisent une cathédrale invisible avec une accroche magnétique, une architecture ternaire et une chute qui pousse à l'action.",
     speakingLab: {
@@ -328,7 +339,7 @@ export const COURSES: Course[] = [
     duration: '3h30',
     badgeColor: '#10b981',
     accentBg: 'from-emerald-600/90 to-neutral-900',
-    image: '/src/assets/images/speaker_black_woman_stage_1790879390986.jpg',
+    image: speaker_black_woman_stage_1790879390986,
     imageAlt: "Oratrice captivant son auditoire par le storytelling et l'émotion vivante",
     description: "Les chiffres informent, mais seules les histoires font bouger les lignes. Ce module vous apprend à structurer vos discours autour du voyage du héros, à stimuler l'empathie neuronale par les détails sensoriels et à faire de votre vulnérabilité une arme de persuasion massive.",
     speakingLab: {
@@ -450,7 +461,7 @@ export const COURSES: Course[] = [
     duration: '4h00',
     badgeColor: '#8b5cf6',
     accentBg: 'from-purple-600/90 to-neutral-900',
-    image: '/src/assets/images/speaker_grand_orator_1790876995112.jpg',
+    image: speaker_grand_orator_1790876995112,
     imageAlt: "Maître orateur déployant la rhétorique classique aristotélicienne avec majesté",
     description: "La persuasion est une science millénaire perfectionnée par Aristote, Cicéron et les plus grands tribuns du barreau. Apprenez à combiner la crédibilité morale (Ethos), l'argumentation irréfutable (Logos) et la corde sensible de l'âme (Pathos) pour désarmer n'importe quel contradicteur.",
     speakingLab: {
@@ -567,7 +578,7 @@ export const COURSES: Course[] = [
     duration: '5h00',
     badgeColor: '#e11d48',
     accentBg: 'from-rose-600/90 to-neutral-900',
-    image: '/src/assets/images/speaker_black_keynote_hall_1790879414109.jpg',
+    image: speaker_black_keynote_hall_1790879414109,
     imageAlt: "Grand orateur dominant une immense salle de conférence plénière avec maestria",
     description: "Le sommet de l'art oratoire. Parler devant 10 personnes en salle de réunion ne ressemble en rien à dominer un amphi de 2 000 places, un plateau télé en direct ou une conférence TED. Découvrez la gestion de l'espace tridimensionnel, la symbiose avec le prompteur et l'art des punchlines imparables.",
     speakingLab: {
