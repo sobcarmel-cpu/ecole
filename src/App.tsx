@@ -27,7 +27,6 @@ import { CertificateView } from './components/CertificateView';
 import { SpeakingLab } from './components/SpeakingLab';
 import { ProgressDashboard } from './components/ProgressDashboard';
 import { AuthModal } from './components/AuthModal';
-import { CampaignView } from './components/CampaignView';
 import {
   getCurrentUser,
   logoutUser,
@@ -37,7 +36,6 @@ import {
 } from './utils/auth';
 
 export default function App() {
-  if (window.location.pathname === '/campaign' || window.location.pathname === '/campaign/') return <CampaignView />;
   // Current active view
   const [currentTab, setCurrentTab] = useState<'webinar' | 'courses' | 'lab' | 'certificates' | 'progression'>('courses');
   const [selectedCourseId, setSelectedCourseId] = useState<string | null>(null);
